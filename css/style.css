@@ -1,0 +1,89 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: LatoBlack;
+}
+
+body,html{
+	height: 95%;
+	background-color: #003366;
+}
+
+@font-face{
+	font-family: LatoBlack;
+	src: url('../font/Lato-Black.ttf');
+}
+
+.nav-registro{
+	width: 23em;
+	height: 40em;
+	background-color: #fff;
+	margin: 0 auto;
+	border-radius: 1em;
+	margin-top: 2.5em;
+}
+
+.nav-registro h1{
+	text-align: center;
+	font-size: 3em;
+	padding-top: 0.5em;
+	color: #003366;
+}
+
+.nav-registro input[type=email],
+.nav-registro input[type=password]{
+	width: 280px;
+	height: 50px;
+	border: 0;
+	border-bottom: 2px solid #003366;
+	margin-top: 30px;
+	margin-left: 46px;
+	font-size: 20px;
+	outline: none;
+	font-family: LatoBlack;
+}
+
+.connections span{
+	margin-left: 2.2em;
+	font-size: 20px;
+	font-family: Brutal, sans-serif;
+}
+
+.connections a > img{
+	display: inline-block;
+	width: 3em;
+	height: 3em;
+	margin-left: 0.3em;
+	margin-top: 1em;
+}
+
+input[type=checkbox]{
+	margin-left: 4em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 5px;
+
+}
+
+label{
+	padding-left: 0.4em;
+	font-size: 18px;
+	font-family: Brutal, sans-serif;
+}
+
+input[type=submit]{
+	width: 280px;
+	height: 48px;
+	font-size: 30px;
+	margin-left: 1.6em;
+	margin-top: 0.9em;
+	border-radius: 25em;
+	border: 1px solid black;
+	margin-bottom: 0.5em;
+	cursor: pointer;
+	background-color: #003366;
+	color: white;
+}
